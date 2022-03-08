@@ -1,0 +1,62 @@
+
+.rounded-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.project-image{
+    width: 100%;
+}
+
+
+.anchor {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+
+.hero {
+    text-align: center;
+}
+
+.tag{
+
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    color: #4a4a4a;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: .75em;
+    padding-right: .75em;
+    white-space: nowrap;
+
+}
+
+.item{
+    transition: .5s ease-in-out;
+}
+
+.item:hover{
+    filter: brightness(80%);
+}
+
+section{
+    padding-bottom: 60px;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
